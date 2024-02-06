@@ -227,4 +227,6 @@ New sandbox * [US East (N. Virginia)	 - Ubuntu 22.04 LTS]()
 * [Asia Pacific (Sydney) - Ubuntu 22.04 LTS]() 
 
 No sandboxes yet![Previous project](https://intranet.hbtn.io/projects/2347) 
-              Next project            
+              Next project
+[![js-semistandard-style](https://raw.githubusercontent.com/standard/semistandard/master/badge.svg)](https://github.com/standard/semistandard)
+[![js-semistandard-style](https://raw.githubusercontent.com/standard/semistandard/master/badge.svg)](https://github.com/standard/semistandard)            
