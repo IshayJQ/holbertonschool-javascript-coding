@@ -26,7 +26,6 @@ request.get(url, (error, response, body) => {
     // Handle error, if any
     if (err) {
       console.error('Error writing to file:', err);
-      return;
     }
   });
 });
