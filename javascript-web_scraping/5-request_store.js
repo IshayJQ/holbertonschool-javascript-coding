@@ -19,7 +19,6 @@ request.get(url, (error, response, body) => {
   // Handle error, if any
   if (error) {
     console.error('Error:', error);
-    return;
   }
 
   // Write the body response to the file
@@ -29,7 +28,5 @@ request.get(url, (error, response, body) => {
       console.error('Error writing to file:', err);
       return;
     }
-
-    console.log('Webpage content saved to file successfully.');
   });
 });
