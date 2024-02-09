@@ -16,7 +16,6 @@ request.get(apiUrl, (error, response, body) => {
   // Handle error, if any
   if (error) {
     console.error('Error:', error);
-    return;
   }
 
   // Parse the JSON response body
