@@ -33,4 +33,3 @@ request.get(url, (error, response, body) => {
     console.log('Webpage content saved to file successfully.');
   });
 });
-

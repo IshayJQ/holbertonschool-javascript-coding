@@ -28,4 +28,3 @@ request.get(url, (error, response, body) => {
   // Display the title of the movie
   console.log(`${movieData.title}`);
 });
-

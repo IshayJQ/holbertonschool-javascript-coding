@@ -22,4 +22,3 @@ fs.writeFile(filePath, stringToWrite, 'utf-8', (err) => {
 
   console.log('String written to the file successfully.');
 });
-

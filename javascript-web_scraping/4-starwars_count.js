@@ -36,5 +36,3 @@ request.get(apiUrl, (error, response, body) => {
   // Print the number of movies with "Wedge Antilles" present
   console.log(`${moviesWithWedgeAntilles}`);
 });
-
-

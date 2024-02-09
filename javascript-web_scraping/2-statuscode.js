@@ -22,4 +22,3 @@ request.get(url, (error, response) => {
   // Display the status code of the response
   console.log(`code: ${response.statusCode}`);
 });
- 
