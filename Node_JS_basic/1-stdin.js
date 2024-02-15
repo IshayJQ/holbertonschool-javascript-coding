@@ -1,7 +1,7 @@
 // Create a readable stream to read input from the command line
 const readline = require('readline');
 const { spawn } = require('node:child_process');
-const rl = spawn(readline.createInterface({
+const rl = spawn(readline.({
   input: process.stdin,
   output: process.stdout
 }));
