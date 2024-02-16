@@ -1,25 +1,12 @@
-// Create a readable stream to read input from the command line
-const readline = require('readline');
-const { spawn } = require('node:child_process');
-const rl = spawn(readline.({
-  input: process.stdin,
-  output: process.stdout
-}));
-
-// Display the initial message
-console.log('Welcome to Holberton School, what is your name?');
-
-// Listen for user input
-rl.on('line', (input) => {
-  // Display the user's name
-  console.log(`Your name is: ${input}`);
-
-  // Close the readline interface
-  rl.close();
+process.stdin.setEncoding('utf8');
+process.stdout.write('Welcome to Holberton School, what is your name?\n');
+process.stdin.on('data', (data) => {
+  if (data){
+    process.stdout.write(`Your name is: ${data}`);
+  }
+  process.exit();
 });
 
-// Listen for the close event of readline interface
-rl.on('close', () => {
-  // Display closing message
-  console.log('This important software is now closing');
+process.on('exit', () => {
+ process.stdout.write('This important software is now closing\n');
 });
